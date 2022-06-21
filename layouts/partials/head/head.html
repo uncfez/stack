@@ -4,6 +4,8 @@
 {{- $description := partialCached "data/description" . .RelPermalink -}}
 <meta name='description' content='{{ $description }}'>
 
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+
 {{- $title := partialCached "data/title" . .RelPermalink -}}
 <title>{{ $title }}</title>
 

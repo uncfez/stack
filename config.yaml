@@ -4,6 +4,8 @@ module:
         min: "0.87.0"
 
 params:
+    cloudinary_url: 'https://res.cloudinary.com/turfvb'
+
     mainSections:
         - post
     featuredImageField: image
